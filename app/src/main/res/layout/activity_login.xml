@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="@dimen/_60sdp"
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:text="Welcome Back"
+                android:textAlignment="center"
+                android:textSize="@dimen/_30ssp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:textSize="@dimen/_13ssp"
+                android:text="Easy monitor of currency rates movemets and conversion"
+                android:textAlignment="center"
+                 />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="Username ,Email, Phone number "
+                android:inputType="textPersonName"
+                 />
+
+            <EditText
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/editTextTextPassword3"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext"
+                 />
+        </LinearLayout>
+
+            <Button
+                android:layout_marginLeft="@dimen/_140sdp"
+                android:id="@+id/forgetpassword"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:text="Forget Password?"
+                android:textSize="@dimen/_8ssp"
+                android:background="@android:color/transparent"
+                android:textColor="@color/black"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/buttonSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/button"
+                android:text="Sign in"
+                android:textColor="@color/white"
+                />
+
+
+
+            <ImageView
+                android:src="@drawable/img_4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130sdp"
+                 />
+
+            <Button
+                android:layout_marginLeft="@dimen/_80sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:id="@+id/lSkip"
+                android:layout_width="195dp"
+                android:layout_height="47dp"
+                android:background="@android:color/transparent"
+                android:text="Skip now -->"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button3"
+                app:layout_constraintVertical_bias="0.952" />
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

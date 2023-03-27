@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".calculator">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Currency Calculator"
+                android:textAlignment="center"
+                android:textSize="@dimen/_30ssp"
+                android:textStyle="bold"
+                 />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="@dimen/_15sdp"
+                app:cardElevation="@dimen/_20sdp">
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                   <TextView
+                       android:id="@+id/txtbase"
+                       android:layout_width="@dimen/_150sdp"
+                       android:layout_height="@dimen/_50sdp"
+                       android:layout_marginTop="@dimen/_20sdp"
+                       android:text="Base"
+                       android:textStyle="bold"
+                       android:gravity="center"
+                       android:textSize="@dimen/_25ssp"/>
+
+                   <TextView
+                       android:layout_width="@dimen/_150sdp"
+                       android:layout_height="@dimen/_50sdp"
+                       android:layout_marginTop="@dimen/_20sdp"
+                       android:text="Currency"
+                       android:layout_alignParentRight="true"
+                       android:textStyle="bold"
+                       android:gravity="center"
+                       android:textSize="@dimen/_20ssp"/>
+
+                   <androidx.appcompat.widget.AppCompatSpinner
+                       android:id="@+id/spinner1"
+                       android:layout_width="@dimen/_120sdp"
+                       android:layout_height="@dimen/_40sdp"
+                       android:layout_marginLeft="@dimen/_15sdp"
+                       android:background="@drawable/edittext"
+                       android:layout_marginTop="@dimen/_90sdp"
+                       android:textAlignment="center" />
+
+                   <androidx.appcompat.widget.AppCompatSpinner
+                       android:id="@+id/spinner2"
+                       android:layout_width="@dimen/_120sdp"
+                       android:layout_height="@dimen/_40sdp"
+
+                       android:layout_marginTop="@dimen/_90sdp"
+                       android:layout_marginRight="@dimen/_15sdp"
+                       android:background="@drawable/edittext"
+                       android:textAlignment="center"
+                       android:layout_alignParentRight="true"
+                       />
+
+
+                   <EditText
+                       android:id="@+id/edtAmount"
+                       android:layout_width="@dimen/_150sdp"
+                       android:layout_height="@dimen/_50sdp"
+                       android:inputType="number"
+                       android:layout_marginTop="@dimen/_160sdp"
+                       android:textSize="@dimen/_25sdp"
+                       android:layout_centerHorizontal="true"
+                       android:hint="Enter amount"
+                       android:textAlignment="center"
+                       android:background="@drawable/edittext"
+                       />
+
+
+
+                   <TextView
+                       android:text="Result : "
+                       android:layout_width="@dimen/_160sdp"
+                       android:layout_height="@dimen/_50sdp"
+                       android:textAlignment="center"
+                       android:textColor="@color/black"
+                       android:textStyle="bold"
+                       android:textSize="@dimen/_30ssp"
+                       android:layout_marginTop="@dimen/_230sdp"
+                       android:layout_marginLeft="@dimen/_40sdp"
+                       />
+                   <TextView
+                       android:id="@+id/txtView"
+                       android:layout_width="wrap_content"
+                       android:layout_height="@dimen/_50sdp"
+                       android:layout_marginLeft="@dimen/_170sdp"
+                       android:layout_marginTop="@dimen/_230sdp"
+                       android:textColor="#00ff00"
+                       android:textSize="@dimen/_30ssp"
+                       android:textStyle="bold" />
+
+
+                   <androidx.appcompat.widget.AppCompatButton
+                       android:id="@+id/btn"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Calculate"
+                       android:textColor="@color/white"
+                       android:background="@drawable/button"
+                       android:layout_marginTop="@dimen/_300sdp"
+                       />
+
+
+                   <ProgressBar
+                       android:id="@+id/progressBar"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerInParent="true"
+                       android:visibility="invisible" />
+
+               </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    ></ScrollView>
+
+
+
+</LinearLayout>

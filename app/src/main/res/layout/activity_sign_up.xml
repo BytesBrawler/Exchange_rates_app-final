@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="@dimen/_60sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:text="Sign up"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_30ssp"
+                android:textStyle="bold"
+                 />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:text="Easy monitor of currency rates movements and conversion"
+                android:textAlignment="center"
+                android:textSize="@dimen/_13ssp"
+                 />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <EditText
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="Full name "
+                android:inputType="textPersonName"/>
+            <EditText
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="Email "
+                android:inputType="textEmailAddress"/>
+            <EditText
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"/>
+            <EditText
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                />
+
+            </LinearLayout>
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="@dimen/_12sdp"
+                android:id="@+id/bSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/button"
+                android:textColor="@color/white"
+                android:text="sign up"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_15sdp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="@dimen/_140sdp"
+                    android:layout_height="match_parent"
+                    android:text="Already have an account?"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                     />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/blogin"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:background="@android:color/transparent"
+                    android:text="Log_in"
+                    android:textColor="#092FEA"
+                    android:textSize="@dimen/_10ssp" />
+
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bSkip"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@android:color/transparent"
+                android:text="Skip now -->"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
