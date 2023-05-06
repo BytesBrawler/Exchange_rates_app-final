@@ -4,13 +4,13 @@
 All round Solution for all currency related details .Experience real time Currency rates with graphs and calculate your amount with inbuilt currency calculator
 
 # Screenshots
-![screenshot](https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/1.jpeg)
-![screenshot](https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/2.jpeg)
-![screenshot](https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/3.jpeg)
-![screenshot](https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/4.jpeg)
-![screenshot](https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/5.jpeg)
-![screenshot](https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/6.jpeg)
-![screenshot](https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/7.jpeg)
+<img src="https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/1.jpeg" width="30%" height="40%" />
+<img src="https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/2.jpeg" width="30%" height="40%" />
+<img src="https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/3.jpeg" width="30%" height="40%" />
+<img src="https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/4.jpeg" width="30%" height="40%" />
+<img src="https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/5.jpeg" width="30%" height="40%" />
+<img src="https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/6.jpeg" width="30%" height="40%" />
+<img src="https://raw.githubusercontent.com/BytesBrawler/images/main/screenshots/currency/7.jpeg" width="30%" height="40%" />
 
 # Tech Stack
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?logo=java&logoColor=white&style=for-the-badge)
